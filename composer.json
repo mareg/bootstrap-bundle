@@ -1,5 +1,6 @@
 {
     "name": "marek/bootstrap-bundle",
+    "type": "symfony-bundle",
     "description": "Simple bootstrap bundle extending twbs/bootstrap",
     "license": "MIT",
     "authors": [
@@ -11,5 +12,10 @@
     "minimum-stability": "dev",
     "require": {
 
-    }
+    },
+	"autoload": {
+        "psr-0": { "Mareg\\BootstrapBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Mareg/BootstrapBundle"
 }
