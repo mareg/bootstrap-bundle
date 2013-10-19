@@ -1,0 +1,15 @@
+{
+    "name": "marek/bootstrap-bundle",
+    "description": "Simple bootstrap bundle extending twbs/bootstrap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marek Matulka",
+            "email": "marek@matulka.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
