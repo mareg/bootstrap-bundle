@@ -1,5 +1,5 @@
 {
-    "name": "marek/bootstrap-bundle",
+    "name": "mareg/bootstrap-bundle",
     "type": "symfony-bundle",
     "description": "Simple bootstrap bundle extending twbs/bootstrap",
     "license": "MIT",
