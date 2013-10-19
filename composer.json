@@ -14,8 +14,8 @@
         "twbs/bootstrap" : "v3.0.0"
     },
 	"autoload": {
-        "psr-0": { "Mareg\\BootstrapBundle": "" }
+        "psr-0": { "Mareg\\Bundle\\BootstrapBundle": "" }
     },
     "minimum-stability": "dev",
-    "target-dir": "Mareg/BootstrapBundle"
+    "target-dir": "Mareg/Bundle/BootstrapBundle"
 }
