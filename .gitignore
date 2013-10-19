@@ -12,5 +12,10 @@ web/bundles/*
 app/config/parameters.ini
 app/config/parameters.yml
 
+#Eclipse IDE
+.project
+.buildpath
+.settings
+
 # Extras
 Resources/twbs
