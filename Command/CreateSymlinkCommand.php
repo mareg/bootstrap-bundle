@@ -28,7 +28,7 @@ class CreateSymlinkCommand extends Command
         $symlink   = "/vendor/mareg/bootstrap-bundle/Mareg/Bundle/BootstrapBundle/Resources/twbs";
         $bootstrap = "/vendor/twbs/bootstrap";
 
-        if (!file_exists($currentLocation . $bootstrap)) {
+        if (file_exists($currentLocation . $bootstrap)) {
             if (file_exists($currentLocation . $symlink)) {
                 $output->writeln($noteOK . 'Link already exists.');
             } else {
